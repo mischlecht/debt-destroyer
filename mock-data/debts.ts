@@ -1,6 +1,6 @@
 import { DebtType } from "../types/debt";
 
-const debts: DebtType[] = [
+export const MockDebts: DebtType[] = [
   {
     title: "Visa",
     balance: 12130.54,
@@ -9,4 +9,9 @@ const debts: DebtType[] = [
   },
 ];
 
-export default debts;
+export const NewDebt: DebtType = {
+  title: "",
+  balance: 0,
+  interestRate: 0,
+  minimumPayment: 0,
+};
